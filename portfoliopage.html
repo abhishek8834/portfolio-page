@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title displayed in the browser tab -->
+    <title>Portfolio Page</title>
+
+    <!-- Internal CSS styling for the page -->
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header section styling */
+        header {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Image styling: makes it circular and adds top margin */
+        img {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        /* Section and footer box styling */
+        section, footer {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        /* Heading (h3) styling inside sections */
+        h3 {
+            color: #007BFF;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Link (anchor tag) styling */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        /* Hover effect for links */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer paragraph styling */
+        footer p {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+
+    <!-- JavaScript to display a welcome alert when the page loads -->
+    <script>
+        window.onload = function() {
+            alert("Welcome to Abhishek's Portfolio Page!");
+        };
+    </script>
+</head>
+<body>
+
+    <!-- Header section with name and image -->
+    <header>
+        <h1>Abhishek</h1>
+        <!-- Profile image -->
+        <img src="Abhishek.jpg" height="100px" width="100px" alt="Abhishek's Photo">
+        <hr>
+    </header>
+
+    <!-- Education section -->
+    <section>
+        <h3>Education:</h3>
+        <ul>
+            <li><b>10th class (UP Board):</b> 80%</li>
+            <li><b>12th class (UP Board):</b> 65%</li>
+            <li><b>Bachelor in Technology (CSE):</b> 70% <i>(up to 6th semester)</i></li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- Skills section -->
+    <section>
+        <h3>Skills:</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>SQL</li>
+            <li>C, C++</li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- Hobbies section -->
+    <section>
+        <h3>Hobbies:</h3>
+        <ul>
+            <li>Reading</li>
+            <li>Traveling</li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- Footer section with contact details -->
+    <footer>
+        <h3>Contact:</h3>
+        <ul>
+            <li><b>Email:</b> abhisheksingh123@gmail.com</li>
+            <li><b>Mob:</b> 6306030747</li>
+            <li><b>LinkedIn:</b> 
+                <!-- External LinkedIn link opens in new tab -->
+                <a href="https://www.linkedin.com/in/abhishek-singh-344840298" target="_blank">Abhishek's LinkedIn</a>
+            </li>
+        </ul>
+        <hr>
+        <!-- Footer note -->
+        <p><i>Made by Abhishek</i></p>
+    </footer>
+
+</body>
+</html>
